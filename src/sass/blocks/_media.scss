@@ -22,6 +22,10 @@
     .button__main {
         margin-right: 50px;
         }
+    .consultation {
+        display: block;
+        margin: 0 auto;
+        }
 }
 @media (max-width: 767px){
 .header {
@@ -42,7 +46,12 @@
         align-items:center;
     }
 }
+.consultation {
+    display: block;
+    margin: 0 auto;
+    }
 }
+
 @media (max-width: 575px){
     .header{
         &__phone {
@@ -74,5 +83,13 @@
     }
     .button__main {
         margin-top: 10px;
+        }
+    .consultation {
+        input {
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items:center;
+        }
         }
 }
