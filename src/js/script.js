@@ -6,3 +6,9 @@ $(document).ready(function(){
         nextArrow:'<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
     });
 });
+/* var slider = tns({
+    container: '.carousel__inner',
+    items: 1,
+    slideBy: 'page',
+    autoplay: false
+}); */
