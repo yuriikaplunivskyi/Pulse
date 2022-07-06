@@ -31,5 +31,8 @@
     "url": "https://github.com/yuriikaplunivskyi/Pulse/issues"
   },
   "homepage": "https://github.com/yuriikaplunivskyi/Pulse#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
